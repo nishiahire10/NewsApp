@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  News App
+//
+//  Created by Nishigandha Bhushan Jadhav on 01/07/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+API_KEY = "pub_475913578b987858da1497d23091478158c53"
+
