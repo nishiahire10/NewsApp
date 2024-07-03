@@ -22,7 +22,7 @@ final class NewsListView: UIView {
         let tableView = UITableView(frame: .zero)
         tableView.backgroundColor = .systemBackground
         tableView.tableFooterView = UIView()
-        tableView.estimatedRowHeight = Layout.placeholderSize.height + Layout.spacing * 2
+        tableView.estimatedRowHeight = 400
         tableView.rowHeight = UITableView.automaticDimension
         return tableView
     }()

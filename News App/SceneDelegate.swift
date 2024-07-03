@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
                 window = UIWindow(frame: windowScene.coordinateSpace.bounds)
                 window?.windowScene = windowScene
-                window?.rootViewController = NewsListViewController()
+                let nav1 = UINavigationController(rootViewController: NewsListViewController())
+                window?.rootViewController = nav1
                 window?.makeKeyAndVisible()
     }
 
